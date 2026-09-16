@@ -1,0 +1,39 @@
+html {
+    background-color: #dcacac;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto 40px auto;
+    background-color: #fcfcfc;
+    border: 1px solid #ffffff;
+}
+
+div.content {
+    padding: 0 30px 40px 30px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+img.header-image {
+    width: 100%;
+}
+
+img.servering {
+    float: left;
+    width: 48%;
+    margin: 1%;
+}
+
+h1 {
+    color: #a10000;
+}
+
+p.beskrivning {
+    background-color: lightgray;
+    padding: 10px;
+}
