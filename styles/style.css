@@ -3,37 +3,77 @@ html {
 }
 
 body {
-    width: 600px;
+    width: 1280px;
     margin: 0 auto 40px auto;
     background-color: #fcfcfc;
     border: 1px solid #ffffff;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* Add padding to right, bottom, left */
 div.content {
-    padding: 0 30px 40px 30px;
+    padding: 0 40px 60px 40px;
 }
 
-img {
+/* Flex for responsive layout structure */
+div.servering {
+    display: flex;
+    gap: 25px;
+    
+}
+
+/* Each div element gets equal space */
+div.servering img {
+    flex: 1;
+    height: 467px;
+    width: 0;
+    object-fit: cover;
+}
+
+/*img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
-}
+}*/
 
 img.header-image {
     width: 100%;
+    height: 500px;
+    object-fit: cover;
 }
 
-img.servering {
+/*img.servering {
     float: left;
     width: 48%;
     margin: 1%;
-}
+}*/
 
 h1 {
     color: #a10000;
+    font-size: 34px;
+    margin-top: 42px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+p, li {
+    font-size: 18px;
+    line-height: 2;
+}
+
+ul, ol {
+    padding-left: 25px;
 }
 
 p.beskrivning {
-    background-color: lightgray;
-    padding: 10px;
+    background-color: #ebebeb;
+    padding: 8px 16px;
 }
