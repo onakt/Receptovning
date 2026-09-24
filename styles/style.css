@@ -3,8 +3,9 @@ html {
 }
 
 body {
-    width: 1280px;
-    margin: 0 auto 40px auto;
+    width: 96%;
+    max-width: 1280px;
+    margin: 0 auto 2% auto;
     background-color: #fcfcfc;
     border: 1px solid #ffffff;
     font-family: Calibri, 'Trebuchet MS', sans-serif;
@@ -76,4 +77,27 @@ ul, ol {
 p.beskrivning {
     background-color: #ebebeb;
     padding: 8px 16px;
+}
+
+@media (max-width: 600px) {
+    /*body {
+        margin: 0 10px 20px 10px;
+    }*/
+
+    div.content {
+        padding: 0 20px 40px 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    div.servering {
+        flex-direction: column;
+    }
+
+    div.servering img {
+        width: 100%;
+        height: auto;
+    }
 }
